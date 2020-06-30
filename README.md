@@ -44,6 +44,9 @@ https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation
 Scan AWS IAM to identify principals subject to the following methods:
 * https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/
 
+https://github.com/sa7mon/S3Scanner
+"A tool to find open S3 buckets and dump their contents"
+
 ## Code Quality
 
 https://github.com/duo-labs/parliament
@@ -59,8 +62,6 @@ https://github.com/bridgecrewio/checkov
 
 https://www.practicalcloudsecurity.com/ by Chris Farris (@jcfarris)
 "a website designed to help busy security practitioners navigate the intricacies of AWS’s Service Offerings"
-
-## Play
 
 https://github.com/RhinoSecurityLabs/cloudgoat
 "CloudGoat is Rhino Security Labs' "Vulnerable by Design" AWS deployment tool."
