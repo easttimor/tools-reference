@@ -29,6 +29,12 @@ https://github.com/Netflix/security_monkey
 https://github.com/turnerlabs/antiope
 "Antiope (PRONO An-Tie-Oh-Pee) is intended to be an open sourced framework for managing resources across hundreds of AWS Accounts. From a trusted Security Account, Antiope will leverage Cross Account Assume Roles to gather up resource data and store them in an inventory bucket. This bucket can then be index by ELK or your SEIM of choice to provide easy searching of resources across hundreds of AWS accounts."
 
+https://github.com/NotSoSecure/cloud-service-enum/
+Permissions enumeration.
+
+https://github.com/sa7mon/S3Scanner
+"A tool to find open S3 buckets and dump their contents"
+
 ## Exploit TTPs
 
 https://github.com/FSecureLABS/leonidas
@@ -44,8 +50,10 @@ https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation
 Scan AWS IAM to identify principals subject to the following methods:
 * https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/
 
-https://github.com/sa7mon/S3Scanner
-"A tool to find open S3 buckets and dump their contents"
+https://github.com/andresriancho/nimbostratus
+"Tools for fingerprinting and exploiting Amazon cloud infrastructures."
+
+
 
 ## Code Quality
 
@@ -65,6 +73,9 @@ https://www.practicalcloudsecurity.com/ by Chris Farris (@jcfarris)
 
 https://github.com/RhinoSecurityLabs/cloudgoat
 "CloudGoat is Rhino Security Labs' "Vulnerable by Design" AWS deployment tool."
+
+https://github.com/andresriancho/nimbostratus-target
+"This code deploys an Amazon AWS infrastructure which has various vulnerabilities and weak configuration settings which can be exploited using nimbostratus."
 
 http://flaws.cloud/ by Scott Piper (@0xdabbad00)
 
