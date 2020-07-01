@@ -1,4 +1,5 @@
-# tools-reference
+# AWS Tools Reference
+Useful offensive and defensive OSS
 
 ## Analyze
 
@@ -53,7 +54,8 @@ Scan AWS IAM to identify principals subject to the following methods:
 https://github.com/andresriancho/nimbostratus
 "Tools for fingerprinting and exploiting Amazon cloud infrastructures."
 
-
+https://github.com/jordanpotti/AWSBucketDump
+"AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive."
 
 ## Code Quality
 
