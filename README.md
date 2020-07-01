@@ -36,6 +36,9 @@ Permissions enumeration.
 https://github.com/sa7mon/S3Scanner
 "A tool to find open S3 buckets and dump their contents"
 
+https://github.com/nccgroup/ScoutSuite
+"Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."
+
 ## Exploit TTPs
 
 https://github.com/FSecureLABS/leonidas
