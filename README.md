@@ -8,7 +8,7 @@ https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a
 
 https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/
 
-## Analyze
+## Analyze and Defend
 
 https://github.com/Netflix-Skunkworks/cloudtrail-anomaly
 "This project is a simple CloudTrail based anomaly detection for use in AWS. It keeps track of all API actions a principal calls (that are tracked by CloudTrail) for a N day period and alerts on new API calls after the N day period."
@@ -51,14 +51,17 @@ Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations
 
 ## Exploit TTPs
 
+https://github.com/RhinoSecurityLabs/pacu
+"Pacu is an open source AWS exploitation framework, designed for offensive security testing against cloud environments."
+
+https://github.com/Voulnet/barq 
+"barq is a post-exploitation framework that allows you to easily perform attacks on a running AWS infrastructure. It allows you to attack running EC2 instances without having the original instance SSH keypairs. It also allows you to perform enumeration and extraction of stored Secrets and Parameters in AWS."
+
 https://github.com/FSecureLABS/leonidas
 This is the repository containing Leonidas, a framework for executing attacker actions in the cloud. It provides a YAML-based format for defining cloud attacker tactics, techniques and procedures (TTPs) and their associated detection properties.
 
 https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension
 "Extension for Burp Suite which uses AWS API Gateway to change your IP on every request."
-
-https://github.com/RhinoSecurityLabs/pacu
-"Pacu is an open source AWS exploitation framework, designed for offensive security testing against cloud environments."
 
 https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation
 Scan AWS IAM to identify principals subject to the following methods:
