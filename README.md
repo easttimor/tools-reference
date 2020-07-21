@@ -10,6 +10,9 @@ https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/
 
 ## Analyze and Defend
 
+https://github.com/toniblyx/prowler
+"Prowler is a command line tool for AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool."
+
 https://github.com/Netflix-Skunkworks/cloudtrail-anomaly
 "This project is a simple CloudTrail based anomaly detection for use in AWS. It keeps track of all API actions a principal calls (that are tracked by CloudTrail) for a N day period and alerts on new API calls after the N day period."
 
