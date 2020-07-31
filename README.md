@@ -49,8 +49,12 @@ https://github.com/sa7mon/S3Scanner
 https://github.com/nccgroup/ScoutSuite
 "Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."
 
+### Identity and Access
 https://github.com/salesforce/cloudsplaining
 Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.
+
+https://github.com/cyberark/SkyArk/
+"SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."
 
 ## Exploit TTPs
 
