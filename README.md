@@ -10,17 +10,27 @@ https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/
 
 ## Analyze and Defend
 
-https://github.com/toniblyx/prowler
-"Prowler is a command line tool for AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool."
-
+### CloudTrail API Activity
 https://github.com/Netflix-Skunkworks/cloudtrail-anomaly
 "This project is a simple CloudTrail based anomaly detection for use in AWS. It keeps track of all API actions a principal calls (that are tracked by CloudTrail) for a N day period and alerts on new API calls after the N day period."
 
+https://github.com/flosell/trailscraper
+"A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies"
+
+### S3
+https://github.com/sa7mon/S3Scanner
+"A tool to find open S3 buckets and dump their contents"
+
+### General DFIR
 https://github.com/Netflix-Skunkworks/diffy
 "Diffy is a triage tool used during cloud-centric security incidents, to help digital forensics and incident response (DFIR) teams quickly identify suspicious hosts on which to focus their response."
 
-https://github.com/FSecureLABS/awspx
-"awspx is a graph-based tool for visualizing effective access and resource relationships within AWS. It resolves policy information to determine what actions affect which resources, while taking into account how these actions may be combined to produce attack paths. Unlike tools like Bloodhound, awspx requires permissions to function — it is not expected to be useful in cases where these privileges have not been granted."
+### Misconfiguration Assessment / Posture Management / Attack Surface Enumeration
+https://github.com/toniblyx/prowler
+"Prowler is a command line tool for AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool."
+
+https://github.com/nccgroup/ScoutSuite
+"Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."
 
 https://github.com/cloud-custodian/cloud-custodian
 "Cloud Custodian is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized. It consolidates many of the adhoc scripts organizations have into a lightweight and flexible tool, with unified metrics and reporting."
@@ -28,30 +38,25 @@ https://github.com/cloud-custodian/cloud-custodian
 https://github.com/dowjones/hammer
 "Dow Jones Hammer is a multi-account cloud security tool for AWS. It identifies misconfigurations and insecure data exposures within most popular AWS resources, across all regions and accounts. It has near real-time reporting capabilities (e.g. JIRA, Slack) to provide quick feedback to engineers and can perform auto-remediation of some misconfigurations. This helps to protect products deployed on cloud by creating secure guardrails."
 
-https://github.com/flosell/trailscraper
-"A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies"
-
-https://github.com/lyft/cartography
-"Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database."
-
 https://github.com/Netflix/security_monkey
 "Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."
+
+### Resource Tracking and Relationships
+https://github.com/FSecureLABS/awspx
+"awspx is a graph-based tool for visualizing effective access and resource relationships within AWS. It resolves policy information to determine what actions affect which resources, while taking into account how these actions may be combined to produce attack paths. Unlike tools like Bloodhound, awspx requires permissions to function — it is not expected to be useful in cases where these privileges have not been granted."
 
 https://github.com/turnerlabs/antiope
 "Antiope (PRONO An-Tie-Oh-Pee) is intended to be an open sourced framework for managing resources across hundreds of AWS Accounts. From a trusted Security Account, Antiope will leverage Cross Account Assume Roles to gather up resource data and store them in an inventory bucket. This bucket can then be index by ELK or your SEIM of choice to provide easy searching of resources across hundreds of AWS accounts."
 
-https://github.com/NotSoSecure/cloud-service-enum/
-Permissions enumeration.
-
-https://github.com/sa7mon/S3Scanner
-"A tool to find open S3 buckets and dump their contents"
-
-https://github.com/nccgroup/ScoutSuite
-"Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."
+https://github.com/lyft/cartography
+"Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database."
 
 ### Identity and Access
 https://github.com/salesforce/cloudsplaining
 Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.
+
+https://github.com/NotSoSecure/cloud-service-enum/
+Permissions enumeration.
 
 https://github.com/cyberark/SkyArk/
 "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."
