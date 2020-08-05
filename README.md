@@ -1,6 +1,9 @@
 # AWS Tools Reference
 Useful offensive and defensive OSS
 
+> The repo you're currently look at is more of my own personal down-select of tools I've used and found useful. I strongly recommend starting with the @toniblyx repo of AWS security tools. 
+> https://github.com/toniblyx/my-arsenal-of-aws-security-tools
+
 ## Info
 https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a
 @kmcquade3
@@ -95,6 +98,13 @@ https://github.com/liamg/tfsec
 
 https://github.com/bridgecrewio/checkov
 "Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations."
+
+## Other great tools aggregators
+
+https://github.com/toniblyx/my-arsenal-of-aws-security-tools
+
+https://github.com/qazbnm456/awesome-web-security
+
 
 ## Learn
 
