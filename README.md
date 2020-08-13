@@ -45,6 +45,10 @@ https://github.com/Netflix/security_monkey
 "Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."
 
 ### Resource Tracking and Relationships
+
+https://github.com/BishopFox/smogcloud
+Find exposed AWS cloud assets that you did not know you had. A comprehensive asset inventory is step one to any capable security program. 
+
 https://github.com/FSecureLABS/awspx
 "awspx is a graph-based tool for visualizing effective access and resource relationships within AWS. It resolves policy information to determine what actions affect which resources, while taking into account how these actions may be combined to produce attack paths. Unlike tools like Bloodhound, awspx requires permissions to function — it is not expected to be useful in cases where these privileges have not been granted."
 
