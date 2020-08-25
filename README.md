@@ -58,6 +58,9 @@ https://github.com/turnerlabs/antiope
 https://github.com/lyft/cartography
 "Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database."
 
+https://github.com/Cloud-Architects/cloudiscovery
+Analyze AWS resources including reports and graph visualization.
+
 ### Identity and Access
 https://github.com/salesforce/cloudsplaining
 Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.
