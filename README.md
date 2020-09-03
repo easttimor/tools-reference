@@ -71,6 +71,9 @@ Permissions enumeration.
 https://github.com/cyberark/SkyArk/
 "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."
 
+https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a
+"AWS API calls that return credentials"
+
 ## Exploit TTPs
 
 https://github.com/RhinoSecurityLabs/pacu
