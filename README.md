@@ -68,6 +68,9 @@ Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations
 https://github.com/NotSoSecure/cloud-service-enum/
 Permissions enumeration.
 
+https://github.com/andresriancho/enumerate-iam
+Permissions enumeration.
+
 https://github.com/cyberark/SkyArk/
 "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."
 
