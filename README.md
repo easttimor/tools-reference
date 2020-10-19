@@ -119,6 +119,8 @@ https://github.com/bridgecrewio/checkov
 
 https://github.com/toniblyx/my-arsenal-of-aws-security-tools
 
+https://cloudberry.engineering/tool/
+
 https://github.com/qazbnm456/awesome-web-security
 
 https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
