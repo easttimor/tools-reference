@@ -64,6 +64,9 @@ https://github.com/lyft/cartography
 https://github.com/Cloud-Architects/cloudiscovery
 Analyze AWS resources including reports and graph visualization.
 
+https://github.com/projectdiscovery/cloudlist
+"Cloudlist is a tool for listing Assets from multiple Cloud Providers."
+
 ### Identity and Access
 https://github.com/salesforce/cloudsplaining
 Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.
