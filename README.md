@@ -47,6 +47,9 @@ https://github.com/dowjones/hammer
 https://github.com/Netflix/security_monkey
 "Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."
 
+https://github.com/elitest/redboto/
+"collection of scripts that use the Amazon SDK for Python boto3 to perform red team operations against the AWS API."
+
 ### Resource Tracking and Relationships
 
 https://github.com/BishopFox/smogcloud
