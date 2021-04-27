@@ -125,14 +125,26 @@ https://github.com/elitest/redboto/
 
 ## Code Quality
 
+https://cloudsploit.com/cloudformation (Aqua)
+"Scan your Cloudformation templates for over 95 security risks in seconds for free."
+
+https://github.com/bridgecrewio/checkov
+"Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations."
+
 https://github.com/duo-labs/parliament
 "parliament is an AWS IAM linting library"
 
 https://github.com/liamg/tfsec
 "tfsec uses static analysis of your terraform templates to spot potential security issues."
 
-https://github.com/bridgecrewio/checkov
-"Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations."
+https://github.com/terraform-linters/tflint
+"a framework and each feature is provided by plugins, the key features are as follows:
+Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP).
+Warn about deprecated syntax, unused declarations.
+Enforce best practices, naming conventions."
+
+https://github.com/wayfair/terrafirma
+"Terraform static analysis tool designed for detecting security misconfigurations."
 
 ## Other great tools aggregators
 
