@@ -20,15 +20,36 @@ https://github.com/Netflix-Skunkworks/cloudtrail-anomaly
 https://github.com/flosell/trailscraper
 "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies"
 
-### S3
+### Recon / Enumeration
+
+https://github.com/initstring/cloud_enum
+"Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."
+
+https://github.com/nccgroup/PMapper
+"Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization. It models the different IAM Users and Roles in an account as a directed graph, which enables checks for privilege escalation and for alternate paths an attacker could take to gain access to a resource or action in AWS."
+
+https://github.com/WeAreCloudar/s3-account-search
+"This tool lets you find the account id an S3 bucket belongs too."
+
 https://github.com/sa7mon/S3Scanner
 "A tool to find open S3 buckets and dump their contents"
 
+https://github.com/jordanpotti/AWSBucketDump
+"AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive."
+
+https://github.com/NotSoSecure/cloud-service-enum/
+Permissions enumeration.
+
+https://github.com/andresriancho/enumerate-iam
+Permissions enumeration.
+
 ### General DFIR
+
 https://github.com/Netflix-Skunkworks/diffy
 "Diffy is a triage tool used during cloud-centric security incidents, to help digital forensics and incident response (DFIR) teams quickly identify suspicious hosts on which to focus their response."
 
-### Misconfiguration Assessment / Posture Management / Attack Surface Enumeration
+### Cloud Security Posture Management
+
 https://github.com/toniblyx/prowler
 "Prowler is a command line tool for AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool."
 
@@ -46,9 +67,6 @@ https://github.com/dowjones/hammer
 
 https://github.com/Netflix/security_monkey
 "Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."
-
-https://github.com/elitest/redboto/
-"collection of scripts that use the Amazon SDK for Python boto3 to perform red team operations against the AWS API."
 
 ### Resource Tracking and Relationships
 
@@ -71,14 +89,9 @@ https://github.com/projectdiscovery/cloudlist
 "Cloudlist is a tool for listing Assets from multiple Cloud Providers."
 
 ### Identity and Access
+
 https://github.com/salesforce/cloudsplaining
 Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.
-
-https://github.com/NotSoSecure/cloud-service-enum/
-Permissions enumeration.
-
-https://github.com/andresriancho/enumerate-iam
-Permissions enumeration.
 
 https://github.com/cyberark/SkyArk/
 "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."
@@ -107,8 +120,8 @@ Scan AWS IAM to identify principals subject to the following methods:
 https://github.com/andresriancho/nimbostratus
 "Tools for fingerprinting and exploiting Amazon cloud infrastructures."
 
-https://github.com/jordanpotti/AWSBucketDump
-"AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive."
+https://github.com/elitest/redboto/
+"collection of scripts that use the Amazon SDK for Python boto3 to perform red team operations against the AWS API."
 
 ## Code Quality
 
@@ -132,6 +145,9 @@ https://github.com/qazbnm456/awesome-web-security
 https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 
 ## Learn
+
+https://cloudsecdocs.com/ by Marco Lancini (@lancinimarco)
+"a website collecting technical notes, how-tos, and cheatsheets related to cloud-native technologies (not only security-focused)"
 
 https://www.practicalcloudsecurity.com/ by Chris Farris (@jcfarris)
 "a website designed to help busy security practitioners navigate the intricacies of AWS’s Service Offerings"
