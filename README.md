@@ -115,6 +115,9 @@ Permissions enumeration.
 https://github.com/andresriancho/enumerate-iam
 Permissions enumeration.
 
+https://github.com/carnal0wnage/weirdAAL
+Permissions enumeration and useful functions.
+
 ### Exploit TTPs
 
 https://github.com/RhinoSecurityLabs/pacu
