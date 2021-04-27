@@ -1,15 +1,8 @@
 # AWS Tools Reference
-Useful offensive and defensive OSS
+Useful offensive and defensive open source software.
 
 > The repo you're currently look at is more of my own personal down-select of tools I've used and found useful. I strongly recommend starting with the @toniblyx repo of AWS security tools. 
 > https://github.com/toniblyx/my-arsenal-of-aws-security-tools
-
-## Info
-https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a
-@kmcquade3
-"AWS API calls that return credentials"
-
-https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/
 
 ## Analyze and Defend
 
@@ -20,33 +13,31 @@ https://github.com/Netflix-Skunkworks/cloudtrail-anomaly
 https://github.com/flosell/trailscraper
 "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies"
 
-### Recon / Enumeration
+### Static Code Analysis Tools / Code Quality
 
-https://github.com/initstring/cloud_enum
-"Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."
+https://github.com/Checkmarx/kics
+"Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx."
 
-https://github.com/nccgroup/PMapper
-"Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization. It models the different IAM Users and Roles in an account as a directed graph, which enables checks for privilege escalation and for alternate paths an attacker could take to gain access to a resource or action in AWS."
+https://cloudsploit.com/cloudformation (Aqua)
+"Scan your Cloudformation templates for over 95 security risks in seconds for free."
 
-https://github.com/WeAreCloudar/s3-account-search
-"This tool lets you find the account id an S3 bucket belongs too."
+https://github.com/bridgecrewio/checkov
+"Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations."
 
-https://github.com/sa7mon/S3Scanner
-"A tool to find open S3 buckets and dump their contents"
+https://github.com/duo-labs/parliament
+"parliament is an AWS IAM linting library"
 
-https://github.com/jordanpotti/AWSBucketDump
-"AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive."
+https://github.com/liamg/tfsec
+"tfsec uses static analysis of your terraform templates to spot potential security issues."
 
-https://github.com/NotSoSecure/cloud-service-enum/
-Permissions enumeration.
+https://github.com/terraform-linters/tflint
+"a framework and each feature is provided by plugins, the key features are as follows:
+Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP).
+Warn about deprecated syntax, unused declarations.
+Enforce best practices, naming conventions."
 
-https://github.com/andresriancho/enumerate-iam
-Permissions enumeration.
-
-### General DFIR
-
-https://github.com/Netflix-Skunkworks/diffy
-"Diffy is a triage tool used during cloud-centric security incidents, to help digital forensics and incident response (DFIR) teams quickly identify suspicious hosts on which to focus their response."
+https://github.com/wayfair/terrafirma
+"Terraform static analysis tool designed for detecting security misconfigurations."
 
 ### Cloud Security Posture Management
 
@@ -99,7 +90,32 @@ https://github.com/cyberark/SkyArk/
 https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a
 "AWS API calls that return credentials"
 
-## Exploit TTPs
+## Identify and Exploit
+
+### Recon / Enumeration
+
+https://github.com/initstring/cloud_enum
+"Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."
+
+https://github.com/nccgroup/PMapper
+"Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization. It models the different IAM Users and Roles in an account as a directed graph, which enables checks for privilege escalation and for alternate paths an attacker could take to gain access to a resource or action in AWS."
+
+https://github.com/WeAreCloudar/s3-account-search
+"This tool lets you find the account id an S3 bucket belongs too."
+
+https://github.com/sa7mon/S3Scanner
+"A tool to find open S3 buckets and dump their contents"
+
+https://github.com/jordanpotti/AWSBucketDump
+"AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive."
+
+https://github.com/NotSoSecure/cloud-service-enum/
+Permissions enumeration.
+
+https://github.com/andresriancho/enumerate-iam
+Permissions enumeration.
+
+### Exploit TTPs
 
 https://github.com/RhinoSecurityLabs/pacu
 "Pacu is an open source AWS exploitation framework, designed for offensive security testing against cloud environments."
@@ -123,46 +139,27 @@ https://github.com/andresriancho/nimbostratus
 https://github.com/elitest/redboto/
 "collection of scripts that use the Amazon SDK for Python boto3 to perform red team operations against the AWS API."
 
-## Code Quality
+### General DFIR
 
-https://cloudsploit.com/cloudformation (Aqua)
-"Scan your Cloudformation templates for over 95 security risks in seconds for free."
-
-https://github.com/bridgecrewio/checkov
-"Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations."
-
-https://github.com/duo-labs/parliament
-"parliament is an AWS IAM linting library"
-
-https://github.com/liamg/tfsec
-"tfsec uses static analysis of your terraform templates to spot potential security issues."
-
-https://github.com/terraform-linters/tflint
-"a framework and each feature is provided by plugins, the key features are as follows:
-Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP).
-Warn about deprecated syntax, unused declarations.
-Enforce best practices, naming conventions."
-
-https://github.com/wayfair/terrafirma
-"Terraform static analysis tool designed for detecting security misconfigurations."
-
-## Other great tools aggregators
-
-https://github.com/toniblyx/my-arsenal-of-aws-security-tools
-
-https://cloudberry.engineering/tool/
-
-https://github.com/qazbnm456/awesome-web-security
-
-https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
+https://github.com/Netflix-Skunkworks/diffy
+"Diffy is a triage tool used during cloud-centric security incidents, to help digital forensics and incident response (DFIR) teams quickly identify suspicious hosts on which to focus their response."
 
 ## Learn
+
+### Collections
 
 https://cloudsecdocs.com/ by Marco Lancini (@lancinimarco)
 "a website collecting technical notes, how-tos, and cheatsheets related to cloud-native technologies (not only security-focused)"
 
 https://www.practicalcloudsecurity.com/ by Chris Farris (@jcfarris)
 "a website designed to help busy security practitioners navigate the intricacies of AWS’s Service Offerings"
+
+https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a
+"AWS API calls that return credentials"
+
+https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/
+
+### CTF's and Labs
 
 https://github.com/RhinoSecurityLabs/cloudgoat
 "CloudGoat is Rhino Security Labs' "Vulnerable by Design" AWS deployment tool."
@@ -173,3 +170,13 @@ https://github.com/andresriancho/nimbostratus-target
 http://flaws.cloud/ by Scott Piper (@0xdabbad00)
 
 http://flaws2.cloud/ by Scott Piper (@0xdabbad00)
+
+### Other great tools aggregators
+
+https://github.com/toniblyx/my-arsenal-of-aws-security-tools
+
+https://cloudberry.engineering/tool/
+
+https://github.com/qazbnm456/awesome-web-security
+
+https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
