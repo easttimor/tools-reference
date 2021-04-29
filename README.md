@@ -23,7 +23,7 @@ https://github.com/flosell/trailscraper
 | https://github.com/liamg/tfsec | "tfsec uses static analysis of your terraform templates to spot potential security issues." |
 | https://github.com/terraform-linters/tflint | "a framework and each feature is provided by plugins, the key features are as follows: Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP). Warn about deprecated syntax, unused declarations. Enforce best practices, naming conventions." |
 | https://github.com/wayfair/terrafirma | "Terraform static analysis tool designed for detecting security misconfigurations." |
-
+| https://airiam.io/documentation.html | "AirIAM is a tool to identify and automate Least privilege IAM principles in AWS using Terraform."|
 
 ### Cloud Security Posture Management
 | Link      | Description |
@@ -93,6 +93,7 @@ https://github.com/Netflix-Skunkworks/diffy
 | https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/ |  | 
 
 ### CTF's and Labs
+
 | Link      | Description |
 | ----------- | ----------- |
 | https://github.com/RhinoSecurityLabs/cloudgoat | "CloudGoat is Rhino Security Labs' "Vulnerable by Design" AWS deployment tool."| 
