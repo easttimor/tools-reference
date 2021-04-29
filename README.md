@@ -65,6 +65,7 @@ Useful offensive and defensive open source software.
 | AWSBucketDump | https://github.com/jordanpotti/AWSBucketDump | "AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive."|
 | Cloud Service Enum | https://github.com/NotSoSecure/cloud-service-enum/ | Permissions enumeration.|
 | Enumerate IAM | https://github.com/andresriancho/enumerate-iam | Permissions enumeration.|
+| aws public ips | https://github.com/arkadiyt/aws_public_ips | fetch all public IP addresses (both IPv4/IPv6) associated with an AWS account. |
 
 
 ### Exploit TTPs
