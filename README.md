@@ -7,13 +7,12 @@ Useful offensive and defensive open source software.
 ## Analyze and Defend
 
 ### CloudTrail API Activity
-https://github.com/Netflix-Skunkworks/cloudtrail-anomaly
-"This project is a simple CloudTrail based anomaly detection for use in AWS. It keeps track of all API actions a principal calls (that are tracked by CloudTrail) for a N day period and alerts on new API calls after the N day period."
+| Link      | Description |
+| ----------- | ----------- |
+| https://github.com/Netflix-Skunkworks/cloudtrail-anomaly | "This project is a simple CloudTrail based anomaly detection for use in AWS. It keeps track of all API actions a principal calls (that are tracked by CloudTrail) for a N day period and alerts on new API calls after the N day period."| 
+| https://github.com/flosell/trailscraper | "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies" | 
 
-https://github.com/flosell/trailscraper
-"A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies"
-
-### Static Code Analysis Tools / Code Quality
+### Static Analysis Security Tools / Code Quality
 | Link      | Description |
 | ----------- | ----------- |
 | https://github.com/Checkmarx/kics      | "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx." |
@@ -34,6 +33,7 @@ https://github.com/flosell/trailscraper
 | https://github.com/cloud-custodian/cloud-custodian | "Cloud Custodian is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized. It consolidates many of the adhoc scripts organizations have into a lightweight and flexible tool, with unified metrics and reporting."|
 | https://github.com/dowjones/hammer | "Dow Jones Hammer is a multi-account cloud security tool for AWS. It identifies misconfigurations and insecure data exposures within most popular AWS resources, across all regions and accounts. It has near real-time reporting capabilities (e.g. JIRA, Slack) to provide quick feedback to engineers and can perform auto-remediation of some misconfigurations. This helps to protect products deployed on cloud by creating secure guardrails."|
 | https://github.com/Netflix/security_monkey | "Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."|
+| https://github.com/Netflix-Skunkworks/diffy | "Diffy is a triage tool used during cloud-centric security incidents, to help digital forensics and incident response (DFIR) teams quickly identify suspicious hosts on which to focus their response." |
 
 ### Resource Tracking and Relationships
 | Link      | Description |
@@ -76,11 +76,6 @@ https://github.com/flosell/trailscraper
 | https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation | Scan AWS IAM to identify principals subject to the following methods: https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/ |
 | https://github.com/andresriancho/nimbostratus | "Tools for fingerprinting and exploiting Amazon cloud infrastructures." |
 | https://github.com/elitest/redboto/ | "collection of scripts that use the Amazon SDK for Python boto3 to perform red team operations against the AWS API." |
-
-### General DFIR
-
-https://github.com/Netflix-Skunkworks/diffy
-"Diffy is a triage tool used during cloud-centric security incidents, to help digital forensics and incident response (DFIR) teams quickly identify suspicious hosts on which to focus their response."
 
 ## Learn
 
