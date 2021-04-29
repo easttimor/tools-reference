@@ -67,15 +67,16 @@ Useful offensive and defensive open source software.
 | https://github.com/carnal0wnage/weirdAAL | Permissions enumeration and useful functions.|
 
 ### Exploit TTPs
-| Link      | Description |
-| ----------- | ----------- |
-| https://github.com/RhinoSecurityLabs/pacu | "Pacu is an open source AWS exploitation framework, designed for offensive security testing against cloud environments." |
-| https://github.com/Voulnet/barq | "barq is a post-exploitation framework that allows you to easily perform attacks on a running AWS infrastructure. It allows you to attack running EC2 instances without having the original instance SSH keypairs. It also allows you to perform enumeration and extraction of stored Secrets and Parameters in AWS." |
-| https://github.com/FSecureLABS/leonidas | This is the repository containing Leonidas, a framework for executing attacker actions in the cloud. It provides a YAML-based format for defining cloud attacker tactics, techniques and procedures (TTPs) and their associated detection properties. |
-| https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension | "Extension for Burp Suite which uses AWS API Gateway to change your IP on every request." |
-| https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation | Scan AWS IAM to identify principals subject to the following methods: https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/ |
-| https://github.com/andresriancho/nimbostratus | "Tools for fingerprinting and exploiting Amazon cloud infrastructures." |
-| https://github.com/elitest/redboto/ | "collection of scripts that use the Amazon SDK for Python boto3 to perform red team operations against the AWS API." |
+| Tool | Link      | Description |
+| ----------- | ----------- | ----------- |
+| Pacu | https://github.com/RhinoSecurityLabs/pacu | "Pacu is an open source AWS exploitation framework, designed for offensive security testing against cloud environments." |
+| dsnap | https://github.com/RhinoSecurityLabs/dsnap | Utility for downloading EBS snapshots using the EBS Direct API's."|
+| burp - iprotate | https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension | "Extension for Burp Suite which uses AWS API Gateway to change your IP on every request." |
+| endgame | https://github.com/DavidDikker/endgame | "one-liner commands to backdoor an AWS account's resources with a rogue AWS account - or share the resources with the entire internet" |
+| barq | https://github.com/Voulnet/barq | "barq is a post-exploitation framework that allows you to easily perform attacks on a running AWS infrastructure. It allows you to attack running EC2 instances without having the original instance SSH keypairs. It also allows you to perform enumeration and extraction of stored Secrets and Parameters in AWS." |
+| leonidas | https://github.com/FSecureLABS/leonidas | This is the repository containing Leonidas, a framework for executing attacker actions in the cloud. It provides a YAML-based format for defining cloud attacker tactics, techniques and procedures (TTPs) and their associated detection properties. |
+| nimbostratus | https://github.com/andresriancho/nimbostratus | "Tools for fingerprinting and exploiting Amazon cloud infrastructures." |
+| redboto | https://github.com/elitest/redboto/ | "collection of scripts that use the Amazon SDK for Python boto3 to perform red team operations against the AWS API." |
 
 ## Learn
 
