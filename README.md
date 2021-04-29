@@ -46,25 +46,26 @@ Useful offensive and defensive open source software.
 | https://github.com/projectdiscovery/cloudlist | "Cloudlist is a tool for listing Assets from multiple Cloud Providers."|
 
 ### Identity and Access
-| Link      | Description |
-| ----------- | ----------- |
-| https://github.com/salesforce/cloudsplaining | Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.|
-| https://github.com/cyberark/SkyArk/ | "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."|
-| https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a | "AWS API calls that return credentials"|
+| Name | Link      | Description |
+| ----------- | ----------- | ----------- |
+| Cloudsplaining | https://github.com/salesforce/cloudsplaining | Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.|
+| SkyArk | https://github.com/cyberark/SkyArk/ | "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."|
+| iamlive | https://github.com/iann0036/iamlive | Generate an IAM policy from AWS calls using client-side monitoring (CSM) or embedded proxy |
 
 ## Identify and Exploit
 
 ### Recon / Enumeration
-| Link      | Description |
-| ----------- | ----------- |
-| https://github.com/initstring/cloud_enum | "Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."|
-| https://github.com/nccgroup/PMapper | "Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization. It models the different IAM Users and Roles in an account as a directed graph, which enables checks for privilege escalation and for alternate paths an attacker could take to gain access to a resource or action in AWS."|
-| https://github.com/WeAreCloudar/s3-account-search | "This tool lets you find the account id an S3 bucket belongs too."
-| https://github.com/sa7mon/S3Scanner | "A tool to find open S3 buckets and dump their contents"|
-| https://github.com/jordanpotti/AWSBucketDump | "AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive."|
-| https://github.com/NotSoSecure/cloud-service-enum/ | Permissions enumeration.|
-| https://github.com/andresriancho/enumerate-iam | Permissions enumeration.|
-| https://github.com/carnal0wnage/weirdAAL | Permissions enumeration and useful functions.|
+| Tool | Link      | Description |
+| ----------- | ----------- | ----------- |
+| cloud_enum | https://github.com/initstring/cloud_enum | "Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."|
+| Weird AAL | https://github.com/carnal0wnage/weirdAAL | Permissions enumeration and useful functions.|
+| PMapper | https://github.com/nccgroup/PMapper | "Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization. It models the different IAM Users and Roles in an account as a directed graph, which enables checks for privilege escalation and for alternate paths an attacker could take to gain access to a resource or action in AWS."|
+| s3 account search | https://github.com/WeAreCloudar/s3-account-search | "This tool lets you find the account id an S3 bucket belongs too."
+| S3Scanner | https://github.com/sa7mon/S3Scanner | "A tool to find open S3 buckets and dump their contents"|
+| AWSBucketDump | https://github.com/jordanpotti/AWSBucketDump | "AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive."|
+| Cloud Service Enum | https://github.com/NotSoSecure/cloud-service-enum/ | Permissions enumeration.|
+| Enumerate IAM | https://github.com/andresriancho/enumerate-iam | Permissions enumeration.|
+
 
 ### Exploit TTPs
 | Tool | Link      | Description |
@@ -87,6 +88,7 @@ Useful offensive and defensive open source software.
 | https://www.practicalcloudsecurity.com/  | by Chris Farris (@jcfarris) "a website designed to help busy security practitioners navigate the intricacies of AWS’s Service Offerings" | 
 | https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a  | "AWS API calls that return credentials" | 
 | https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/ |  | 
+| https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a | "AWS API calls that return credentials"|
 
 ### CTF's and Labs
 
