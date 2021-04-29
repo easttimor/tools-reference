@@ -36,87 +36,46 @@ https://github.com/flosell/trailscraper
 | https://github.com/Netflix/security_monkey | "Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."|
 
 ### Resource Tracking and Relationships
-
-https://github.com/BishopFox/smogcloud
-Find exposed AWS cloud assets that you did not know you had. A comprehensive asset inventory is step one to any capable security program. 
-
-https://github.com/FSecureLABS/awspx
-"awspx is a graph-based tool for visualizing effective access and resource relationships within AWS. It resolves policy information to determine what actions affect which resources, while taking into account how these actions may be combined to produce attack paths. Unlike tools like Bloodhound, awspx requires permissions to function — it is not expected to be useful in cases where these privileges have not been granted."
-
-https://github.com/turnerlabs/antiope
-"Antiope (PRONO An-Tie-Oh-Pee) is intended to be an open sourced framework for managing resources across hundreds of AWS Accounts. From a trusted Security Account, Antiope will leverage Cross Account Assume Roles to gather up resource data and store them in an inventory bucket. This bucket can then be index by ELK or your SEIM of choice to provide easy searching of resources across hundreds of AWS accounts."
-
-https://github.com/lyft/cartography
-"Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database."
-
-https://github.com/Cloud-Architects/cloudiscovery
-Analyze AWS resources including reports and graph visualization.
-
-https://github.com/projectdiscovery/cloudlist
-"Cloudlist is a tool for listing Assets from multiple Cloud Providers."
+| Link      | Description |
+| ----------- | ----------- |
+| https://github.com/BishopFox/smogcloud | Find exposed AWS cloud assets that you did not know you had. A comprehensive asset inventory is step one to any capable security program. |
+| https://github.com/FSecureLABS/awspx | "awspx is a graph-based tool for visualizing effective access and resource relationships within AWS. It resolves policy information to determine what actions affect which resources, while taking into account how these actions may be combined to produce attack paths. Unlike tools like Bloodhound, awspx requires permissions to function — it is not expected to be useful in cases where these privileges have not been granted."|
+| https://github.com/turnerlabs/antiope | "Antiope (PRONO An-Tie-Oh-Pee) is intended to be an open sourced framework for managing resources across hundreds of AWS Accounts. From a trusted Security Account, Antiope will leverage Cross Account Assume Roles to gather up resource data and store them in an inventory bucket. This bucket can then be index by ELK or your SEIM of choice to provide easy searching of resources across hundreds of AWS accounts."|
+| https://github.com/lyft/cartography | "Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database."|
+| https://github.com/Cloud-Architects/cloudiscovery | Analyze AWS resources including reports and graph visualization.|
+| https://github.com/projectdiscovery/cloudlist | "Cloudlist is a tool for listing Assets from multiple Cloud Providers."|
 
 ### Identity and Access
-
-https://github.com/salesforce/cloudsplaining
-Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.
-
-https://github.com/cyberark/SkyArk/
-"SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."
-
-https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a
-"AWS API calls that return credentials"
+| Link      | Description |
+| ----------- | ----------- |
+| https://github.com/salesforce/cloudsplaining | Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.|
+| https://github.com/cyberark/SkyArk/ | "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."|
+| https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a | "AWS API calls that return credentials"|
 
 ## Identify and Exploit
 
 ### Recon / Enumeration
-
-https://github.com/initstring/cloud_enum
-"Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."
-
-https://github.com/nccgroup/PMapper
-"Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization. It models the different IAM Users and Roles in an account as a directed graph, which enables checks for privilege escalation and for alternate paths an attacker could take to gain access to a resource or action in AWS."
-
-https://github.com/WeAreCloudar/s3-account-search
-"This tool lets you find the account id an S3 bucket belongs too."
-
-https://github.com/sa7mon/S3Scanner
-"A tool to find open S3 buckets and dump their contents"
-
-https://github.com/jordanpotti/AWSBucketDump
-"AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive."
-
-https://github.com/NotSoSecure/cloud-service-enum/
-Permissions enumeration.
-
-https://github.com/andresriancho/enumerate-iam
-Permissions enumeration.
-
-https://github.com/carnal0wnage/weirdAAL
-Permissions enumeration and useful functions.
+| Link      | Description |
+| ----------- | ----------- |
+| https://github.com/initstring/cloud_enum | "Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."|
+| https://github.com/nccgroup/PMapper | "Principal Mapper (PMapper) is a script and library for identifying risks in the configuration of AWS Identity and Access Management (IAM) for an AWS account or an AWS organization. It models the different IAM Users and Roles in an account as a directed graph, which enables checks for privilege escalation and for alternate paths an attacker could take to gain access to a resource or action in AWS."|
+| https://github.com/WeAreCloudar/s3-account-search | "This tool lets you find the account id an S3 bucket belongs too."
+| https://github.com/sa7mon/S3Scanner | "A tool to find open S3 buckets and dump their contents"|
+| https://github.com/jordanpotti/AWSBucketDump | "AWSBucketDump is a tool to quickly enumerate AWS S3 buckets to look for loot. It's similar to a subdomain bruteforcer but is made specifically for S3 buckets and also has some extra features that allow you to grep for delicious files as well as download interesting files if you're not afraid to quickly fill up your hard drive."|
+| https://github.com/NotSoSecure/cloud-service-enum/ | Permissions enumeration.|
+| https://github.com/andresriancho/enumerate-iam | Permissions enumeration.|
+| https://github.com/carnal0wnage/weirdAAL | Permissions enumeration and useful functions.|
 
 ### Exploit TTPs
-
-https://github.com/RhinoSecurityLabs/pacu
-"Pacu is an open source AWS exploitation framework, designed for offensive security testing against cloud environments."
-
-https://github.com/Voulnet/barq 
-"barq is a post-exploitation framework that allows you to easily perform attacks on a running AWS infrastructure. It allows you to attack running EC2 instances without having the original instance SSH keypairs. It also allows you to perform enumeration and extraction of stored Secrets and Parameters in AWS."
-
-https://github.com/FSecureLABS/leonidas
-This is the repository containing Leonidas, a framework for executing attacker actions in the cloud. It provides a YAML-based format for defining cloud attacker tactics, techniques and procedures (TTPs) and their associated detection properties.
-
-https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension
-"Extension for Burp Suite which uses AWS API Gateway to change your IP on every request."
-
-https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation
-Scan AWS IAM to identify principals subject to the following methods:
-* https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/
-
-https://github.com/andresriancho/nimbostratus
-"Tools for fingerprinting and exploiting Amazon cloud infrastructures."
-
-https://github.com/elitest/redboto/
-"collection of scripts that use the Amazon SDK for Python boto3 to perform red team operations against the AWS API."
+| Link      | Description |
+| ----------- | ----------- |
+| https://github.com/RhinoSecurityLabs/pacu | "Pacu is an open source AWS exploitation framework, designed for offensive security testing against cloud environments." |
+| https://github.com/Voulnet/barq | "barq is a post-exploitation framework that allows you to easily perform attacks on a running AWS infrastructure. It allows you to attack running EC2 instances without having the original instance SSH keypairs. It also allows you to perform enumeration and extraction of stored Secrets and Parameters in AWS." |
+| https://github.com/FSecureLABS/leonidas | This is the repository containing Leonidas, a framework for executing attacker actions in the cloud. It provides a YAML-based format for defining cloud attacker tactics, techniques and procedures (TTPs) and their associated detection properties. |
+| https://github.com/RhinoSecurityLabs/IPRotate_Burp_Extension | "Extension for Burp Suite which uses AWS API Gateway to change your IP on every request." |
+| https://github.com/RhinoSecurityLabs/AWS-IAM-Privilege-Escalation | Scan AWS IAM to identify principals subject to the following methods: https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/ |
+| https://github.com/andresriancho/nimbostratus | "Tools for fingerprinting and exploiting Amazon cloud infrastructures." |
+| https://github.com/elitest/redboto/ | "collection of scripts that use the Amazon SDK for Python boto3 to perform red team operations against the AWS API." |
 
 ### General DFIR
 
@@ -126,29 +85,20 @@ https://github.com/Netflix-Skunkworks/diffy
 ## Learn
 
 ### Collections
-
-https://cloudsecdocs.com/ by Marco Lancini (@lancinimarco)
-"a website collecting technical notes, how-tos, and cheatsheets related to cloud-native technologies (not only security-focused)"
-
-https://www.practicalcloudsecurity.com/ by Chris Farris (@jcfarris)
-"a website designed to help busy security practitioners navigate the intricacies of AWS’s Service Offerings"
-
-https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a
-"AWS API calls that return credentials"
-
-https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/
+| Link      | Description |
+| ----------- | ----------- |
+| https://cloudsecdocs.com/ by Marco Lancini (@lancinimarco) | "a website collecting technical notes, how-tos, and cheatsheets related to cloud-native technologies (not only security-focused)" | 
+| https://www.practicalcloudsecurity.com/  | by Chris Farris (@jcfarris) "a website designed to help busy security practitioners navigate the intricacies of AWS’s Service Offerings" | 
+| https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a  | "AWS API calls that return credentials" | 
+| https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/ |  | 
 
 ### CTF's and Labs
-
-https://github.com/RhinoSecurityLabs/cloudgoat
-"CloudGoat is Rhino Security Labs' "Vulnerable by Design" AWS deployment tool."
-
-https://github.com/andresriancho/nimbostratus-target
-"This code deploys an Amazon AWS infrastructure which has various vulnerabilities and weak configuration settings which can be exploited using nimbostratus."
-
-http://flaws.cloud/ by Scott Piper (@0xdabbad00)
-
-http://flaws2.cloud/ by Scott Piper (@0xdabbad00)
+| Link      | Description |
+| ----------- | ----------- |
+| https://github.com/RhinoSecurityLabs/cloudgoat | "CloudGoat is Rhino Security Labs' "Vulnerable by Design" AWS deployment tool."| 
+| https://github.com/andresriancho/nimbostratus-target | "This code deploys an Amazon AWS infrastructure which has various vulnerabilities and weak configuration settings which can be exploited using nimbostratus."| 
+| http://flaws.cloud/ by Scott Piper (@0xdabbad00)| | 
+| http://flaws2.cloud/ by Scott Piper (@0xdabbad00)| | 
 
 ### Other great tools aggregators
 
