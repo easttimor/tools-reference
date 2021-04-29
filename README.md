@@ -14,50 +14,26 @@ https://github.com/flosell/trailscraper
 "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies"
 
 ### Static Code Analysis Tools / Code Quality
+| Link      | Description |
+| ----------- | ----------- |
+| https://github.com/Checkmarx/kics      | "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx." |
+| https://cloudsploit.com/cloudformation   | "Scan your Cloudformation templates for over 95 security risks in seconds for free." |
+| https://github.com/bridgecrewio/checkov | "Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations." |
+| https://github.com/duo-labs/parliament | "parliament is an AWS IAM linting library" |
+| https://github.com/liamg/tfsec | "tfsec uses static analysis of your terraform templates to spot potential security issues." |
+| https://github.com/terraform-linters/tflint | "a framework and each feature is provided by plugins, the key features are as follows: Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP). Warn about deprecated syntax, unused declarations. Enforce best practices, naming conventions." |
+| https://github.com/wayfair/terrafirma | "Terraform static analysis tool designed for detecting security misconfigurations." |
 
-https://github.com/Checkmarx/kics
-"Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx."
-
-https://cloudsploit.com/cloudformation (Aqua)
-"Scan your Cloudformation templates for over 95 security risks in seconds for free."
-
-https://github.com/bridgecrewio/checkov
-"Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations."
-
-https://github.com/duo-labs/parliament
-"parliament is an AWS IAM linting library"
-
-https://github.com/liamg/tfsec
-"tfsec uses static analysis of your terraform templates to spot potential security issues."
-
-https://github.com/terraform-linters/tflint
-"a framework and each feature is provided by plugins, the key features are as follows:
-Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP).
-Warn about deprecated syntax, unused declarations.
-Enforce best practices, naming conventions."
-
-https://github.com/wayfair/terrafirma
-"Terraform static analysis tool designed for detecting security misconfigurations."
 
 ### Cloud Security Posture Management
-
-https://github.com/toniblyx/prowler
-"Prowler is a command line tool for AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool."
-
-https://github.com/nccgroup/ScoutSuite
-"Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."
-
-https://github.com/SecurityFTW/cs-suite
-"CS Suite is a one stop tool for auditing the security posture of the AWS infrastructure and does system audits as well. CS Suite leverages current open source tools capabilities and has other missing checks added into one tool to rule them all."
-
-https://github.com/cloud-custodian/cloud-custodian
-"Cloud Custodian is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized. It consolidates many of the adhoc scripts organizations have into a lightweight and flexible tool, with unified metrics and reporting."
-
-https://github.com/dowjones/hammer
-"Dow Jones Hammer is a multi-account cloud security tool for AWS. It identifies misconfigurations and insecure data exposures within most popular AWS resources, across all regions and accounts. It has near real-time reporting capabilities (e.g. JIRA, Slack) to provide quick feedback to engineers and can perform auto-remediation of some misconfigurations. This helps to protect products deployed on cloud by creating secure guardrails."
-
-https://github.com/Netflix/security_monkey
-"Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."
+| Link      | Description |
+| ----------- | ----------- |
+| https://github.com/toniblyx/prowler | "Prowler is a command line tool for AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool."|
+| https://github.com/nccgroup/ScoutSuite | "Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."|
+| https://github.com/SecurityFTW/cs-suite | "CS Suite is a one stop tool for auditing the security posture of the AWS infrastructure and does system audits as well. CS Suite leverages current open source tools capabilities and has other missing checks added into one tool to rule them all."|
+| https://github.com/cloud-custodian/cloud-custodian | "Cloud Custodian is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized. It consolidates many of the adhoc scripts organizations have into a lightweight and flexible tool, with unified metrics and reporting."|
+| https://github.com/dowjones/hammer | "Dow Jones Hammer is a multi-account cloud security tool for AWS. It identifies misconfigurations and insecure data exposures within most popular AWS resources, across all regions and accounts. It has near real-time reporting capabilities (e.g. JIRA, Slack) to provide quick feedback to engineers and can perform auto-remediation of some misconfigurations. This helps to protect products deployed on cloud by creating secure guardrails."|
+| https://github.com/Netflix/security_monkey | "Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."|
 
 ### Resource Tracking and Relationships
 
