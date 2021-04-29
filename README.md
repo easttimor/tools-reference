@@ -18,7 +18,7 @@ Useful offensive and defensive open source software.
 | KICS | https://github.com/Checkmarx/kics      | "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx." |
 | CloudSploit Cloudformation | https://cloudsploit.com/cloudformation   | "Scan your Cloudformation templates for over 95 security risks in seconds for free." |
 | Checkov | https://github.com/bridgecrewio/checkov | "Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations." |
-| parialment | https://github.com/duo-labs/parliament | "parliament is an AWS IAM linting library" |
+| parliament | https://github.com/duo-labs/parliament | "parliament is an AWS IAM linting library" |
 | tfsec | https://github.com/liamg/tfsec | "tfsec uses static analysis of your terraform templates to spot potential security issues." |
 | tflint | https://github.com/terraform-linters/tflint | "a framework and each feature is provided by plugins, the key features are as follows: Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP). Warn about deprecated syntax, unused declarations. Enforce best practices, naming conventions." |
 | terrafirma | https://github.com/wayfair/terrafirma | "Terraform static analysis tool designed for detecting security misconfigurations." |
@@ -94,12 +94,13 @@ Useful offensive and defensive open source software.
 
 ### CTF's and Labs
 
-| Link      | Description |
-| ----------- | ----------- |
-| https://github.com/RhinoSecurityLabs/cloudgoat | "CloudGoat is Rhino Security Labs' "Vulnerable by Design" AWS deployment tool."| 
-| https://github.com/andresriancho/nimbostratus-target | "This code deploys an Amazon AWS infrastructure which has various vulnerabilities and weak configuration settings which can be exploited using nimbostratus."| 
-| http://flaws.cloud/ by Scott Piper (@0xdabbad00)| | 
-| http://flaws2.cloud/ by Scott Piper (@0xdabbad00)| | 
+| Name      | Link      | Description |
+| ----------- | ----------- | ----------- |
+| CloudGoat | https://github.com/RhinoSecurityLabs/cloudgoat | "CloudGoat is Rhino Security Labs' "Vulnerable by Design" AWS deployment tool."| 
+| SadCloud | https://github.com/nccgroup/sadcloud | "tool for spinning up insecure AWS infrastructure with Terraform." |
+| Nimbostratus | https://github.com/andresriancho/nimbostratus-target | "This code deploys an Amazon AWS infrastructure which has various vulnerabilities and weak configuration settings which can be exploited using nimbostratus."| 
+| Flaws | http://flaws.cloud/ | "Through a series of levels you'll learn about common mistakes and gotchas when using Amazon Web Services (AWS)" by Scott Piper (@0xdabbad00)| | 
+| Flaws2 | http://flaws2.cloud/ |  "this game/tutorial teaches you AWS (Amazon Web Services) security concepts." by Scott Piper (@0xdabbad00)|
 
 ### Other great tools aggregators
 
@@ -110,3 +111,7 @@ https://cloudberry.engineering/tool/
 https://github.com/qazbnm456/awesome-web-security
 
 https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
+
+## The beginnings of other cloud provider content 
+### Google Cloud Platform (GCP)
+https://thunder-ctf.cloud/
