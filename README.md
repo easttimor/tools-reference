@@ -77,6 +77,7 @@ Useful offensive and defensive open source software.
 | barq | https://github.com/Voulnet/barq | "barq is a post-exploitation framework that allows you to easily perform attacks on a running AWS infrastructure. It allows you to attack running EC2 instances without having the original instance SSH keypairs. It also allows you to perform enumeration and extraction of stored Secrets and Parameters in AWS." |
 | leonidas | https://github.com/FSecureLABS/leonidas | This is the repository containing Leonidas, a framework for executing attacker actions in the cloud. It provides a YAML-based format for defining cloud attacker tactics, techniques and procedures (TTPs) and their associated detection properties. |
 | nimbostratus | https://github.com/andresriancho/nimbostratus | "Tools for fingerprinting and exploiting Amazon cloud infrastructures." |
+| CloudCopy | https://github.com/Static-Flow/CloudCopy | "implements a cloud version of the Shadow Copy attack against domain controllers running in AWS" |
 | redboto | https://github.com/elitest/redboto/ | "collection of scripts that use the Amazon SDK for Python boto3 to perform red team operations against the AWS API." |
 
 ## Learn
