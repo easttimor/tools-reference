@@ -7,43 +7,43 @@ Useful offensive and defensive open source software.
 ## Analyze and Defend
 
 ### CloudTrail API Activity
-| Link      | Description |
-| ----------- | ----------- |
-| https://github.com/Netflix-Skunkworks/cloudtrail-anomaly | "This project is a simple CloudTrail based anomaly detection for use in AWS. It keeps track of all API actions a principal calls (that are tracked by CloudTrail) for a N day period and alerts on new API calls after the N day period."| 
-| https://github.com/flosell/trailscraper | "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies" | 
+| Tool      | Link      | Description |
+| ----------- | ----------- | ----------- |
+| Cloudtrail Anomaly | https://github.com/Netflix-Skunkworks/cloudtrail-anomaly | "This project is a simple CloudTrail based anomaly detection for use in AWS. It keeps track of all API actions a principal calls (that are tracked by CloudTrail) for a N day period and alerts on new API calls after the N day period."| 
+| Trailscraper | https://github.com/flosell/trailscraper | "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies" | 
 
 ### Static Analysis Security Tools / Code Quality
-| Link      | Description |
-| ----------- | ----------- |
-| https://github.com/Checkmarx/kics      | "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx." |
-| https://cloudsploit.com/cloudformation   | "Scan your Cloudformation templates for over 95 security risks in seconds for free." |
-| https://github.com/bridgecrewio/checkov | "Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations." |
-| https://github.com/duo-labs/parliament | "parliament is an AWS IAM linting library" |
-| https://github.com/liamg/tfsec | "tfsec uses static analysis of your terraform templates to spot potential security issues." |
-| https://github.com/terraform-linters/tflint | "a framework and each feature is provided by plugins, the key features are as follows: Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP). Warn about deprecated syntax, unused declarations. Enforce best practices, naming conventions." |
-| https://github.com/wayfair/terrafirma | "Terraform static analysis tool designed for detecting security misconfigurations." |
-| https://airiam.io/documentation.html | "AirIAM is a tool to identify and automate Least privilege IAM principles in AWS using Terraform."|
+| Tool      | Link      | Description |
+| -----------| ----------- | ----------- |
+| KICS | https://github.com/Checkmarx/kics      | "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx." |
+| CloudSploit Cloudformation | https://cloudsploit.com/cloudformation   | "Scan your Cloudformation templates for over 95 security risks in seconds for free." |
+| Checkov | https://github.com/bridgecrewio/checkov | "Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations." |
+| parialment | https://github.com/duo-labs/parliament | "parliament is an AWS IAM linting library" |
+| tfsec | https://github.com/liamg/tfsec | "tfsec uses static analysis of your terraform templates to spot potential security issues." |
+| tflint | https://github.com/terraform-linters/tflint | "a framework and each feature is provided by plugins, the key features are as follows: Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP). Warn about deprecated syntax, unused declarations. Enforce best practices, naming conventions." |
+| terrafirma | https://github.com/wayfair/terrafirma | "Terraform static analysis tool designed for detecting security misconfigurations." |
+| AirIAM | https://airiam.io/documentation.html | "AirIAM is a tool to identify and automate Least privilege IAM principles in AWS using Terraform."|
 
 ### Cloud Security Posture Management
-| Link      | Description |
-| ----------- | ----------- |
-| https://github.com/toniblyx/prowler | "Prowler is a command line tool for AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool."|
-| https://github.com/nccgroup/ScoutSuite | "Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."|
-| https://github.com/SecurityFTW/cs-suite | "CS Suite is a one stop tool for auditing the security posture of the AWS infrastructure and does system audits as well. CS Suite leverages current open source tools capabilities and has other missing checks added into one tool to rule them all."|
-| https://github.com/cloud-custodian/cloud-custodian | "Cloud Custodian is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized. It consolidates many of the adhoc scripts organizations have into a lightweight and flexible tool, with unified metrics and reporting."|
-| https://github.com/dowjones/hammer | "Dow Jones Hammer is a multi-account cloud security tool for AWS. It identifies misconfigurations and insecure data exposures within most popular AWS resources, across all regions and accounts. It has near real-time reporting capabilities (e.g. JIRA, Slack) to provide quick feedback to engineers and can perform auto-remediation of some misconfigurations. This helps to protect products deployed on cloud by creating secure guardrails."|
-| https://github.com/Netflix/security_monkey | "Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."|
-| https://github.com/Netflix-Skunkworks/diffy | "Diffy is a triage tool used during cloud-centric security incidents, to help digital forensics and incident response (DFIR) teams quickly identify suspicious hosts on which to focus their response." |
+| Tool      | Link      | Description |
+| -----------| ----------- | ----------- |
+| Prowler | https://github.com/toniblyx/prowler | "Prowler is a command line tool for AWS Security Best Practices Assessment, Auditing, Hardening and Forensics Readiness Tool."|
+| ScoutSuite | https://github.com/nccgroup/ScoutSuite | "Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."|
+| CS Suite | https://github.com/SecurityFTW/cs-suite | "CS Suite is a one stop tool for auditing the security posture of the AWS infrastructure and does system audits as well. CS Suite leverages current open source tools capabilities and has other missing checks added into one tool to rule them all."|
+| Cloud Custodian | https://github.com/cloud-custodian/cloud-custodian | "Cloud Custodian is a rules engine for managing public cloud accounts and resources. It allows users to define policies to enable a well managed cloud infrastructure, that's both secure and cost optimized. It consolidates many of the adhoc scripts organizations have into a lightweight and flexible tool, with unified metrics and reporting."|
+| Hammer | https://github.com/dowjones/hammer | "Dow Jones Hammer is a multi-account cloud security tool for AWS. It identifies misconfigurations and insecure data exposures within most popular AWS resources, across all regions and accounts. It has near real-time reporting capabilities (e.g. JIRA, Slack) to provide quick feedback to engineers and can perform auto-remediation of some misconfigurations. This helps to protect products deployed on cloud by creating secure guardrails."|
+| Security Monkey | https://github.com/Netflix/security_monkey | "Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."|
+| Diffy | https://github.com/Netflix-Skunkworks/diffy | "Diffy is a triage tool used during cloud-centric security incidents, to help digital forensics and incident response (DFIR) teams quickly identify suspicious hosts on which to focus their response." |
 
 ### Resource Tracking and Relationships
-| Link      | Description |
-| ----------- | ----------- |
-| https://github.com/BishopFox/smogcloud | Find exposed AWS cloud assets that you did not know you had. A comprehensive asset inventory is step one to any capable security program. |
-| https://github.com/FSecureLABS/awspx | "awspx is a graph-based tool for visualizing effective access and resource relationships within AWS. It resolves policy information to determine what actions affect which resources, while taking into account how these actions may be combined to produce attack paths. Unlike tools like Bloodhound, awspx requires permissions to function — it is not expected to be useful in cases where these privileges have not been granted."|
-| https://github.com/turnerlabs/antiope | "Antiope (PRONO An-Tie-Oh-Pee) is intended to be an open sourced framework for managing resources across hundreds of AWS Accounts. From a trusted Security Account, Antiope will leverage Cross Account Assume Roles to gather up resource data and store them in an inventory bucket. This bucket can then be index by ELK or your SEIM of choice to provide easy searching of resources across hundreds of AWS accounts."|
-| https://github.com/lyft/cartography | "Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database."|
-| https://github.com/Cloud-Architects/cloudiscovery | Analyze AWS resources including reports and graph visualization.|
-| https://github.com/projectdiscovery/cloudlist | "Cloudlist is a tool for listing Assets from multiple Cloud Providers."|
+| Tool      | Link      | Description |
+| ----------- | ----------- | ----------- |
+| Smogcloud | https://github.com/BishopFox/smogcloud | Find exposed AWS cloud assets that you did not know you had. A comprehensive asset inventory is step one to any capable security program. |
+| awspx | https://github.com/FSecureLABS/awspx | "awspx is a graph-based tool for visualizing effective access and resource relationships within AWS. It resolves policy information to determine what actions affect which resources, while taking into account how these actions may be combined to produce attack paths. Unlike tools like Bloodhound, awspx requires permissions to function — it is not expected to be useful in cases where these privileges have not been granted."|
+| antiope | https://github.com/turnerlabs/antiope | "Antiope (PRONO An-Tie-Oh-Pee) is intended to be an open sourced framework for managing resources across hundreds of AWS Accounts. From a trusted Security Account, Antiope will leverage Cross Account Assume Roles to gather up resource data and store them in an inventory bucket. This bucket can then be index by ELK or your SEIM of choice to provide easy searching of resources across hundreds of AWS accounts."|
+| cartography | https://github.com/lyft/cartography | "Cartography is a Python tool that consolidates infrastructure assets and the relationships between them in an intuitive graph view powered by a Neo4j database."|
+| clouddiscovery | https://github.com/Cloud-Architects/cloudiscovery | Analyze AWS resources including reports and graph visualization.|
+| Cloudlist | https://github.com/projectdiscovery/cloudlist | "Cloudlist is a tool for listing Assets from multiple Cloud Providers."|
 
 ### Identity and Access
 | Name | Link      | Description |
