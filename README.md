@@ -120,5 +120,12 @@ https://thunder-ctf.cloud/
 
 | Category | Tools | Link | Description |
 | ----------- | ----------- | ----------- | ----------- |
-| Recon | MSOLSpray | https://github.com/dafthack/MSOLSpray | "A password spraying tool for Microsoft Online accounts (Azure/O365)."| 
-| Recon | BlobHunter| https://github.com/cyberark/BlobHunter | "An opensource tool for scanning Azure blob storage accounts for publicly opened blobs."|
+| Recon/Enum | ScoutSuite | https://github.com/nccgroup/ScoutSuite | "Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."|
+| Recon/Enum | cloud_enum | https://github.com/initstring/cloud_enum | "Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."|
+| Recon/Enum | MSOLSpray | https://github.com/dafthack/MSOLSpray | "A password spraying tool for Microsoft Online accounts (Azure/O365)."| 
+| Recon/Enum | BlobHunter| https://github.com/cyberark/BlobHunter | "An opensource tool for scanning Azure blob storage accounts for publicly opened blobs."|
+| Hunt | Sparrow | https://github.com/cisagov/Sparrow | "Sparrow helps network defenders detect possible compromised accounts and applications in Azure/Microsoft O365 environments." |
+| Hunt | AzureAD Investigator | https://github.com/fireeye/Mandiant-Azure-AD-Investigator | "detecting artifacts that may be indicators of UNC2452 and other threat actor activity."|
+| CSPM | SkyArk | https://github.com/cyberark/SkyArk/ | "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."|
+| CSPM | CrowdStrike Reporting Tool | https://github.com/CrowdStrike/CRT | "This tool queries the following configurations in the Azure AD/O365 tenant which can shed light on hard to find permissions and configuration settings in order to assist organizations in securing these environments."|
+| Exploit | MicroBurst | https://github.com/NetSPI/MicroBurst | "MicroBurst includes functions and scripts that support Azure Services discovery, weak configuration auditing, and post exploitation actions such as credential dumping." |
