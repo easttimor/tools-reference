@@ -115,3 +115,10 @@ https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 ## The beginnings of other cloud provider content 
 ### Google Cloud Platform (GCP)
 https://thunder-ctf.cloud/
+
+### Azure
+
+| Category | Tools | Link | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| Recon | MSOLSpray | https://github.com/dafthack/MSOLSpray | "A password spraying tool for Microsoft Online accounts (Azure/O365)."| 
+| Recon | BlobHunter| https://github.com/cyberark/BlobHunter | "An opensource tool for scanning Azure blob storage accounts for publicly opened blobs."|
