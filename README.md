@@ -11,7 +11,6 @@ Useful offensive and defensive open source software.
 | ----------- | ----------- | ----------- |
 | Cloudtrail Anomaly | https://github.com/Netflix-Skunkworks/cloudtrail-anomaly | "This project is a simple CloudTrail based anomaly detection for use in AWS. It keeps track of all API actions a principal calls (that are tracked by CloudTrail) for a N day period and alerts on new API calls after the N day period."| 
 | Trailscraper | https://github.com/flosell/trailscraper | "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies" | 
-| Policy Sentry | https://github.com/salesforce/policy_sentry | "IAM Least Privilege Policy Generator."|
 
 ### Static Analysis Security Tools / Code Quality
 | Tool      | Link      | Description |
@@ -52,6 +51,7 @@ Useful offensive and defensive open source software.
 | Cloudsplaining | https://github.com/salesforce/cloudsplaining | Cloudsplaining is an AWS IAM Security Assessment tool that identifies violations of least privilege and generates a risk-prioritized HTML report.|
 | SkyArk | https://github.com/cyberark/SkyArk/ | "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."|
 | iamlive | https://github.com/iann0036/iamlive | Generate an IAM policy from AWS calls using client-side monitoring (CSM) or embedded proxy |
+| Policy Sentry | https://github.com/salesforce/policy_sentry | "IAM Least Privilege Policy Generator."|
 
 ## Identify and Exploit
 
