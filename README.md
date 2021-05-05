@@ -11,6 +11,7 @@ Useful offensive and defensive open source software.
 | ----------- | ----------- | ----------- |
 | Cloudtrail Anomaly | https://github.com/Netflix-Skunkworks/cloudtrail-anomaly | "This project is a simple CloudTrail based anomaly detection for use in AWS. It keeps track of all API actions a principal calls (that are tracked by CloudTrail) for a N day period and alerts on new API calls after the N day period."| 
 | Trailscraper | https://github.com/flosell/trailscraper | "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies" | 
+| Policy Sentry | https://github.com/salesforce/policy_sentry | "IAM Least Privilege Policy Generator."|
 
 ### Static Analysis Security Tools / Code Quality
 | Tool      | Link      | Description |
