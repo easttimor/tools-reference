@@ -23,6 +23,7 @@ Useful offensive and defensive open source software.
 | tflint | https://github.com/terraform-linters/tflint | "a framework and each feature is provided by plugins, the key features are as follows: Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP). Warn about deprecated syntax, unused declarations. Enforce best practices, naming conventions." |
 | terrafirma | https://github.com/wayfair/terrafirma | "Terraform static analysis tool designed for detecting security misconfigurations." |
 | AirIAM | https://airiam.io/documentation.html | "AirIAM is a tool to identify and automate Least privilege IAM principles in AWS using Terraform."|
+| CloudFormation Guard | https://github.com/aws-cloudformation/cloudformation-guard | "an open-source general-purpose policy-as-code evaluation tool" |
 
 ### Cloud Security Posture Management
 | Tool      | Link      | Description |
