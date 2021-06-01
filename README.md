@@ -5,17 +5,17 @@ Table of Contents
 =================
 | Category      | [Amazon Web Services](#amazon-web-services)      | [Microsoft Azure](#microsoft-azure) | [Google Cloud Platform](#google-cloud-platform) |
 | ----------- | ----------- | ----------- | ----------- |
-| Analyze and Defend |[Analyze and Defend](#analyze-and-defend)|[Analyze and Defend](#azure-analyze-and-defend)||
+| Analyze and Defend |[Analyze and Defend](#analyze-and-defend)|[Analyze and Defend](#azure-analyze-and-defend)|[Analyze and Defend](#gcp-analyze-and-defend)|
 | |[Static Analysis](#static-analysis)|||
-| |[Cloud Security Posture Management](#cloud-security-posture-management)|[Cloud Security Posture Management](#azure-cloud-security-posture-management)||
+| |[Cloud Security Posture Management](#cloud-security-posture-management)|[Cloud Security Posture Management](#azure-cloud-security-posture-management)|[Cloud Security Posture Management](#gcp-cloud-security-posture-management)|
 | |[Resource Tracking and Relationships](#resource-tracking-and-relationships)|||
 | |[Identity and Access](#identity-and-access)|||
 | ||||
-| Identify and Exploit|[Recon / Enumeration](#recon-and-enumeration)|[Recon / Enumeration](#azure-recon-and-enumeration)||
+| Identify and Exploit|[Recon / Enumeration](#recon-and-enumeration)|[Recon / Enumeration](#azure-recon-and-enumeration)|[Recon / Enumeration](#gcp-recon-and-enumeration)|
 | |[Exploit TTPs](#exploit-ttps)|||
 | ||||
 | Learn |[Collections](#aws-collections)|||
-| |[CTFs and Labs](#aws-ctfs-and-labs)|[CTFs and Labs](#azure-ctfs-and-labs)||
+| |[CTFs and Labs](#aws-ctfs-and-labs)|[CTFs and Labs](#azure-ctfs-and-labs)|[CTFs and Labs](#gcp-ctfs-and-labs)|
 
 
 # Amazon Web Services
@@ -159,6 +159,24 @@ https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 # Google Cloud Platform
 > I'm just getting started here. Stay tuned.
 
-| Category | Tools | Link | Description |
-| ----------- | ----------- | ----------- | ----------- |
-| CTF/Lab | Thunder CTF | https://thunder-ctf.cloud/ | "Thunder CTF allows players to practice attacking vulnerable cloud projects on Google Cloud Platform (GCP)." |
+## GCP Analyze and Defend
+
+### GCP Cloud Security Posture Management
+| Name      | Link      | Description |
+| ----------- | ----------- | ----------- |
+| G-Scout | https://github.com/nccgroup/G-Scout | "G-Scout is a tool for auditing Google Cloud Platform configurations. By making API calls, applying security rules, and generating HTML files based on the output, G-Scout makes it easy to analyze the security of a GCP environment." |
+| Forseti | https://github.com/forseti-security/forseti-security | "A community-driven collection of open source tools to improve the security of your Google Cloud Platform environments."|
+
+## GCP Identify and Exploit
+
+## GCP Analyze and Defend
+### GCP Recon and Enumeration
+| Name      | Link      | Description |
+| ----------- | ----------- | ----------- |
+| GCP Bucket Brute | https://github.com/RhinoSecurityLabs/GCPBucketBrute | "A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privilege escalated."|
+| IAM Privilege Escalation | https://github.com/RhinoSecurityLabs/GCP-IAM-Privilege-Escalation | Permissions enumeration and exploit scripts|
+
+### GCP CTFs and Labs
+| Name      | Link      | Description |
+| ----------- | ----------- | ----------- |
+| Thunder CTF | https://thunder-ctf.cloud/ | "Thunder CTF allows players to practice attacking vulnerable cloud projects on Google Cloud Platform (GCP)." |
