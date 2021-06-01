@@ -5,17 +5,17 @@ Table of Contents
 =================
 | Category      | [Amazon Web Services](#amazon-web-services)      | [Microsoft Azure](#microsoft-azure) | [Google Cloud Platform](#google-cloud-platform) |
 | ----------- | ----------- | ----------- | ----------- |
-| Analyze and Defend |[Analyze and Defend](#analyze-and-defend)|||
+| Analyze and Defend |[Analyze and Defend](#analyze-and-defend)|[Analyze and Defend](#azure-analyze-and-defend)||
 | |[Static Analysis](#static-analysis)|||
-| |[Cloud Security Posture Management](#cloud-security-posture-management)|||
+| |[Cloud Security Posture Management](#cloud-security-posture-management)|[Cloud Security Posture Management](#azure-cloud-security-posture-management)||
 | |[Resource Tracking and Relationships](#resource-tracking-and-relationships)|||
 | |[Identity and Access](#identity-and-access)|||
 | ||||
-| Identify and Exploit|[Recon / Enumeration](#recon-and-enumeration)|||
+| Identify and Exploit|[Recon / Enumeration](#recon-and-enumeration)|[Recon / Enumeration](#azure-recon-and-enumeration)||
 | |[Exploit TTPs](#exploit-ttps)|||
 | ||||
 | Learn |[Collections](#aws-collections)|||
-| |[CTFs and Labs](#aws-ctfs-and-labs)|||
+| |[CTFs and Labs](#aws-ctfs-and-labs)|[CTFs and Labs](#azure-ctfs-and-labs)||
 
 
 # Amazon Web Services
@@ -131,22 +131,34 @@ https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 
 # Microsoft Azure
 
-| Category | Tools | Link | Description |
-| ----------- | ----------- | ----------- | ----------- |
-| Recon/Enum | ScoutSuite | https://github.com/nccgroup/ScoutSuite | "Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."|
-| Recon/Enum | cloud_enum | https://github.com/initstring/cloud_enum | "Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."|
-| Recon/Enum | MSOLSpray | https://github.com/dafthack/MSOLSpray | "A password spraying tool for Microsoft Online accounts (Azure/O365)."| 
-| Recon/Enum | BlobHunter| https://github.com/cyberark/BlobHunter | "An opensource tool for scanning Azure blob storage accounts for publicly opened blobs."|
-| Hunt | Sparrow | https://github.com/cisagov/Sparrow | "Sparrow helps network defenders detect possible compromised accounts and applications in Azure/Microsoft O365 environments." |
-| Hunt | AzureAD Investigator | https://github.com/fireeye/Mandiant-Azure-AD-Investigator | "detecting artifacts that may be indicators of UNC2452 and other threat actor activity."|
-| CSPM | SkyArk | https://github.com/cyberark/SkyArk/ | "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."|
-| CSPM | CrowdStrike Reporting Tool | https://github.com/CrowdStrike/CRT | "This tool queries the following configurations in the Azure AD/O365 tenant which can shed light on hard to find permissions and configuration settings in order to assist organizations in securing these environments."|
-| Exploit | MicroBurst | https://github.com/NetSPI/MicroBurst | "MicroBurst includes functions and scripts that support Azure Services discovery, weak configuration auditing, and post exploitation actions such as credential dumping." |
-| CTF/Lab | CONVEX | https://github.com/azure/convex | "Cloud Open-source Network Vulnerability Exploitation eXperience (CONVEX) spins up Capture The Flag environments in your Azure tenant for participants to play through."|
+
+## Azure Analyze and Defend
+### Azure Cloud Security Posture Management
+| Name | Link | Description |
+| ----------- | ----------- | ----------- |
+| ScoutSuite | https://github.com/nccgroup/ScoutSuite | "Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."|
+| Sparrow | https://github.com/cisagov/Sparrow | "Sparrow helps network defenders detect possible compromised accounts and applications in Azure/Microsoft O365 environments." |
+| AzureAD Investigator | https://github.com/fireeye/Mandiant-Azure-AD-Investigator | "detecting artifacts that may be indicators of UNC2452 and other threat actor activity."|
+| SkyArk | https://github.com/cyberark/SkyArk/ | "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."|
+| CrowdStrike Reporting Tool | https://github.com/CrowdStrike/CRT | "This tool queries the following configurations in the Azure AD/O365 tenant which can shed light on hard to find permissions and configuration settings in order to assist organizations in securing these environments."|
+
+## Azure Identify and Exploit
+### Azure Recon and Enumeration
+| Name      | Link      | Description |
+| ----------- | ----------- | ----------- |
+| cloud_enum | https://github.com/initstring/cloud_enum | "Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."|
+| MSOLSpray | https://github.com/dafthack/MSOLSpray | "A password spraying tool for Microsoft Online accounts (Azure/O365)."| 
+| BlobHunter| https://github.com/cyberark/BlobHunter | "An opensource tool for scanning Azure blob storage accounts for publicly opened blobs."|
+| MicroBurst | https://github.com/NetSPI/MicroBurst | "MicroBurst includes functions and scripts that support Azure Services discovery, weak configuration auditing, and post exploitation actions such as credential dumping." |
+
+### Azure CTFs and Labs
+| Name      | Link      | Description |
+| ----------- | ----------- | ----------- |
+| CONVEX | https://github.com/azure/convex | "Cloud Open-source Network Vulnerability Exploitation eXperience (CONVEX) spins up Capture The Flag environments in your Azure tenant for participants to play through."|
 
 # Google Cloud Platform
 > I'm just getting started here. Stay tuned.
 
 | Category | Tools | Link | Description |
 | ----------- | ----------- | ----------- | ----------- |
-| CTB/Lab | Thunder CTF | https://thunder-ctf.cloud/ | "Thunder CTF allows players to practice attacking vulnerable cloud projects on Google Cloud Platform (GCP)." |
+| CTF/Lab | Thunder CTF | https://thunder-ctf.cloud/ | "Thunder CTF allows players to practice attacking vulnerable cloud projects on Google Cloud Platform (GCP)." |
