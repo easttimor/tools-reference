@@ -156,6 +156,13 @@ https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 | ----------- | ----------- | ----------- |
 | CONVEX | https://github.com/azure/convex | "Cloud Open-source Network Vulnerability Exploitation eXperience (CONVEX) spins up Capture The Flag environments in your Azure tenant for participants to play through."|
 
+## Learn
+
+### Azure Collections
+| Name      | Link      | Description |
+| ----------- | ----------- | ----------- |
+| Microsoft Portals | msportals.io | Microsoft Administrator Sites |
+
 # Google Cloud Platform
 > I'm just getting started here. Stay tuned.
 
@@ -169,7 +176,6 @@ https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 
 ## GCP Identify and Exploit
 
-## GCP Analyze and Defend
 ### GCP Recon and Enumeration
 | Name      | Link      | Description |
 | ----------- | ----------- | ----------- |
