@@ -1,9 +1,24 @@
-# AWS Tools Reference
-Useful offensive and defensive open source software.
+# Cloud Security Tools Reference
+A collection of useful offensive and defensive open source software.
 
-> The repo you're currently look at is more of my own personal down-select of tools I've used and found useful. I strongly recommend starting with the @toniblyx repo of AWS security tools. 
-> https://github.com/toniblyx/my-arsenal-of-aws-security-tools
+Table of Contents
+=================
+| Category      | [Amazon Web Services](#amazon-web-services)      | [Microsoft Azure](#microsoft-azure) | [Google Cloud Platform](#google-cloud-platform) |
+| ----------- | ----------- | ----------- | ----------- |
+| Analyze and Defend |[Analyze and Defend](#analyze-and-defend)|||
+| |[Static Analysis](#static-analysis)|||
+| |[Cloud Security Posture Management](#cloud-security-posture-management)|||
+| |[Resource Tracking and Relationships](#resource-tracking-and-relationships)|||
+| |[Identity and Access](#identity-and-access)|||
+| ||||
+| Identify and Exploit|[Recon / Enumeration](#recon-and-enumeration)|||
+| |[Exploit TTPs](#exploit-ttps)|||
+| ||||
+| Learn |[Collections](#aws-collections)|||
+| |[CTFs and Labs](#aws-ctfs-and-labs)|||
 
+
+# Amazon Web Services
 ## Analyze and Defend
 
 ### CloudTrail API Activity
@@ -12,7 +27,7 @@ Useful offensive and defensive open source software.
 | Cloudtrail Anomaly | https://github.com/Netflix-Skunkworks/cloudtrail-anomaly | "This project is a simple CloudTrail based anomaly detection for use in AWS. It keeps track of all API actions a principal calls (that are tracked by CloudTrail) for a N day period and alerts on new API calls after the N day period."| 
 | Trailscraper | https://github.com/flosell/trailscraper | "A command-line tool to get valuable information out of AWS CloudTrail and a general purpose toolbox for working with IAM policies" | 
 
-### Static Analysis Security Tools / Code Quality
+### Static Analysis
 | Tool      | Link      | Description |
 | -----------| ----------- | ----------- |
 | KICS | https://github.com/Checkmarx/kics      | "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx." |
@@ -56,7 +71,7 @@ Useful offensive and defensive open source software.
 
 ## Identify and Exploit
 
-### Recon / Enumeration
+### Recon and Enumeration
 | Tool | Link      | Description |
 | ----------- | ----------- | ----------- |
 | cloud_enum | https://github.com/initstring/cloud_enum | "Multi-cloud OSINT tool. Enumerate public resources in AWS, Azure, and Google Cloud."|
@@ -85,7 +100,7 @@ Useful offensive and defensive open source software.
 
 ## Learn
 
-### Collections
+### AWS Collections
 | Link      | Description |
 | ----------- | ----------- |
 | https://cloudsecdocs.com/ by Marco Lancini (@lancinimarco) | "a website collecting technical notes, how-tos, and cheatsheets related to cloud-native technologies (not only security-focused)" | 
@@ -94,7 +109,7 @@ Useful offensive and defensive open source software.
 | https://rhinosecuritylabs.com/aws/aws-privilege-escalation-methods-mitigation/ |  | 
 | https://gist.github.com/kmcquade/33860a617e651104d243c324ddf7992a | "AWS API calls that return credentials"|
 
-### CTF's and Labs
+### AWS CTFs and Labs
 
 | Name      | Link      | Description |
 | ----------- | ----------- | ----------- |
@@ -114,11 +129,7 @@ https://github.com/qazbnm456/awesome-web-security
 
 https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 
-## The beginnings of other cloud provider content 
-### Google Cloud Platform (GCP)
-https://thunder-ctf.cloud/
-
-### Azure
+# Microsoft Azure
 
 | Category | Tools | Link | Description |
 | ----------- | ----------- | ----------- | ----------- |
@@ -132,3 +143,10 @@ https://thunder-ctf.cloud/
 | CSPM | CrowdStrike Reporting Tool | https://github.com/CrowdStrike/CRT | "This tool queries the following configurations in the Azure AD/O365 tenant which can shed light on hard to find permissions and configuration settings in order to assist organizations in securing these environments."|
 | Exploit | MicroBurst | https://github.com/NetSPI/MicroBurst | "MicroBurst includes functions and scripts that support Azure Services discovery, weak configuration auditing, and post exploitation actions such as credential dumping." |
 | CTF/Lab | CONVEX | https://github.com/azure/convex | "Cloud Open-source Network Vulnerability Exploitation eXperience (CONVEX) spins up Capture The Flag environments in your Azure tenant for participants to play through."|
+
+# Google Cloud Platform
+> I'm just getting started here. Stay tuned.
+
+| Category | Tools | Link | Description |
+| ----------- | ----------- | ----------- | ----------- |
+| CTB/Lab | Thunder CTF | https://thunder-ctf.cloud/ | "Thunder CTF allows players to practice attacking vulnerable cloud projects on Google Cloud Platform (GCP)." |
