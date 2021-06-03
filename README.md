@@ -33,6 +33,7 @@ Table of Contents
 | KICS | https://github.com/Checkmarx/kics      | "Find security vulnerabilities, compliance issues, and infrastructure misconfigurations early in the development cycle of your infrastructure-as-code with KICS by Checkmarx." |
 | CloudSploit Cloudformation | https://cloudsploit.com/cloudformation   | "Scan your Cloudformation templates for over 95 security risks in seconds for free." |
 | Checkov | https://github.com/bridgecrewio/checkov | "Checkov is a static code analysis tool for infrastructure-as-code. It scans cloud infrastructure provisioned using Terraform, Cloudformation or Kubernetes and detects security and compliance misconfigurations." |
+| confectionery | https://github.com/Cigna/confectionery |"A library of rules for Conftest used to detect misconfigurations within Terraform configuration files "|
 | parliament | https://github.com/duo-labs/parliament | "parliament is an AWS IAM linting library" |
 | tfsec | https://github.com/liamg/tfsec | "tfsec uses static analysis of your terraform templates to spot potential security issues." |
 | tflint | https://github.com/terraform-linters/tflint | "a framework and each feature is provided by plugins, the key features are as follows: Find possible errors (like illegal instance types) for Major Cloud providers (AWS/Azure/GCP). Warn about deprecated syntax, unused declarations. Enforce best practices, naming conventions." |
@@ -137,6 +138,7 @@ https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 | Name | Link | Description |
 | ----------- | ----------- | ----------- |
 | ScoutSuite | https://github.com/nccgroup/ScoutSuite | "Scout Suite is an open source multi-cloud security-auditing tool, which enables security posture assessment of cloud environments. Using the APIs exposed by cloud providers, Scout Suite gathers configuration data for manual inspection and highlights risk areas. Rather than going through dozens of pages on the web consoles, Scout Suite presents a clear view of the attack surface automatically."|
+| confectionery | https://github.com/Cigna/confectionery |"A library of rules for Conftest used to detect misconfigurations within Terraform configuration files "|
 | Sparrow | https://github.com/cisagov/Sparrow | "Sparrow helps network defenders detect possible compromised accounts and applications in Azure/Microsoft O365 environments." |
 | AzureAD Investigator | https://github.com/fireeye/Mandiant-Azure-AD-Investigator | "detecting artifacts that may be indicators of UNC2452 and other threat actor activity."|
 | SkyArk | https://github.com/cyberark/SkyArk/ | "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."|
