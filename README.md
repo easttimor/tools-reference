@@ -51,6 +51,7 @@ Table of Contents
 | Hammer | https://github.com/dowjones/hammer | "Dow Jones Hammer is a multi-account cloud security tool for AWS. It identifies misconfigurations and insecure data exposures within most popular AWS resources, across all regions and accounts. It has near real-time reporting capabilities (e.g. JIRA, Slack) to provide quick feedback to engineers and can perform auto-remediation of some misconfigurations. This helps to protect products deployed on cloud by creating secure guardrails."|
 | Security Monkey | https://github.com/Netflix/security_monkey | "Security Monkey monitors your AWS and GCP accounts for policy changes and alerts on insecure configurations."|
 | Diffy | https://github.com/Netflix-Skunkworks/diffy | "Diffy is a triage tool used during cloud-centric security incidents, to help digital forensics and incident response (DFIR) teams quickly identify suspicious hosts on which to focus their response." |
+| Domain Protect | https://github.com/ovotech/domain-protect | "Protect against subdomain takeover " |
 
 ### Resource Tracking and Relationships
 | Tool      | Link      | Description |
@@ -175,6 +176,7 @@ https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 | ----------- | ----------- | ----------- |
 | G-Scout | https://github.com/nccgroup/G-Scout | "G-Scout is a tool for auditing Google Cloud Platform configurations. By making API calls, applying security rules, and generating HTML files based on the output, G-Scout makes it easy to analyze the security of a GCP environment." |
 | Forseti | https://github.com/forseti-security/forseti-security | "A community-driven collection of open source tools to improve the security of your Google Cloud Platform environments."|
+| Domain Protect | https://github.com/ovotech/domain-protect-gcp | "Protect against subdomain takeover "|
 
 ## GCP Identify and Exploit
 
