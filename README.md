@@ -144,6 +144,7 @@ https://github.com/yeyintminthuhtut/Awesome-Red-Teaming
 | AzureAD Investigator | https://github.com/fireeye/Mandiant-Azure-AD-Investigator | "detecting artifacts that may be indicators of UNC2452 and other threat actor activity."|
 | SkyArk | https://github.com/cyberark/SkyArk/ | "SkyArk currently focuses on mitigating the new threat of Cloud Shadow Admins, and helps organizations to discover, assess and protect cloud privileged entities."|
 | CrowdStrike Reporting Tool | https://github.com/CrowdStrike/CRT | "This tool queries the following configurations in the Azure AD/O365 tenant which can shed light on hard to find permissions and configuration settings in order to assist organizations in securing these environments."|
+| Cloud Guardrails | https://github.com/salesforce/cloud-guardrails | "Cloud Guardrails allows you to rapidly cherry-pick cloud security guardrails by generating Terraform files that create Azure Policy Initiatives." |
 
 ## Azure Identify and Exploit
 ### Azure Recon and Enumeration
